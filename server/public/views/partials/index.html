@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Data APIs!</title>
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+      <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/ang_app.js"></script>
+</head>
+<body ng-app="myApp">
+  <!-- ng view pulls in info from the partials -->
+
+    <div class="jumbotron">
+          <h1>Find a Pet</h1>
+    </div>
+
+   <div class ="row">
+  <div <div class="col-md-6">
+  <button><a href="#home">Home</a></button>
+  <button><a href="#barnyard">Barnyard</a></button>
+  <button><a href="#bird">Bird</a></button>
+  <button><a href="#cat">Cat</a></button>
+  <button><a href="#dog">Dog</a></button>
+  <button><a href="#horse">Horse</a></button>
+  <button><a href="#pig">Pig</a></button>
+  <button><a href="#reptile">Reptile</a></button>
+  <button><a href="#smallfurry">Small & Fuyry</a></button>
+</div>
+  <div <div class="col-md-3"><button><a href="#favorites">Favorites</a></button></div>
+    <div <div class="col-md-3"><p>Count goes here</p></div>
+  </div>
+  <!-- This is how the partials are viewed ng-view -->
+  <main ng-view>
+
+  </main>
+
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+
+<div ng-contoller="favoritesController" ng-init="getFavorites()">
+
+<ul >
+  <li ng-repeat ="favorites in favorites"><p>{{favorites.pet_id}}</p><img src={{favorites.pet_url}} /> <p>{{favorites.pet_name}}</p> <br />
+<p> {{favorites.description }}</p></li>
+</ul>
+
+
+
+
+ </div>

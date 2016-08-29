@@ -1,0 +1,9 @@
+<div ng-contoller="dogController" ng-init="getRandomDog()">
+  <div class ="row">
+  <div class="col-md-4"><img ng-src="{{animal.media.photos.photo[1].$t}}" /></div>
+  <div class="col-md-8"><h3>Name: {{animal.name.$t}}</h3><br /><p><strong>Information:</strong><br> {{animal.description.$t}}</p></div>
+ </div>
+ <div>
+  <button ng-click="addFavorite()"> Add to favorites</button>
+ </div>
+</div>
